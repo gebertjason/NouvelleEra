@@ -8,44 +8,61 @@ body {
     min-height: 100vh;
     background: linear-gradient(to right, #6dd5ed, #2193b0);
     perspective: 1000px;
-  }
-  
-  main {
+}
+
+#contentContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* To ensure it stays above the 3D layer */
+}
+
+/* Rename this ID to start with a letter */
+#environment3D {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Behind the content */
+}
+
+main {
     position: relative;
     z-index: 1;
-  }
-  
-  header, section {
+}
+
+header, section {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
-    width: 80%; /* Optional: Set a specific width for the content boxes */
+    width: 80%; /* Set a specific width for the content boxes */
     margin: 0 auto; /* Center the content boxes within their parent container */
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 3em;
     margin-bottom: 10px;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 2em;
     margin-bottom: 10px;
-  }
-  
-  p {
+}
+
+p {
     font-size: 16px;
     line-height: 1.5;
-  }
-  
-  section {
+}
+
+section {
     transform: translateY(-50px) rotateX(15deg) rotateY(5deg);
     transition: transform 0.5s ease-in-out;
-  }
-  
-  section:hover {
+}
+
+section:hover {
     transform: translateY(0px) rotateX(0deg) rotateY(0deg);
-  }
-  
+}
