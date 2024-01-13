@@ -7,28 +7,29 @@ html, body {
 body {
     font-family: 'Great Vibes', cursive, sans-serif; /* Fallback to sans-serif */
     background-image: url('throughTrees.jpg');
-    background-size: 104% 100%; /* Scale the image to cover the entire area */
+    background-size: cover; /* Cover the entire area while maintaining aspect ratio */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 55px; /* You can adjust this size later */
+    font-size: 3.5rem; /* Adjust for scalability */
     text-align: center; /* Center align the text */
     color: #eef3e4; /* Set the text color - change as needed */
     margin-top: 20px; /* Add space at the top, adjust as needed */
     /* Additional styling for h1 as needed */
 }
+
 h2 {
     font-family: 'Lato', sans-serif;
-    font-size: 20px; /* Adjust this size as needed */
+    font-size: 1.5rem; /* Adjust for scalability */
     text-align: center;
     color: #eef3e4; /* This will use the default body color, which is cream/off-white */
     margin-top: 20px; /* Adjust spacing as needed */
     /* Additional styling for h2 as needed */
 }
-/* Existing styles */
+
 .centered-link {
     text-align: center; /* Centers inline or inline-block elements within the div */
     margin-top: -40px; /* Add spacing as needed */
@@ -36,7 +37,7 @@ h2 {
 
 a {
     color: #11ec6d; /* Google's blue color, change as needed */
-    font-size: 18px; /* Change as needed */
+    font-size: 1rem; /* Adjust for scalability */
     text-decoration: none; /* Removes underline */
     font-family: 'Lato', sans-serif; /* Consistent with your body text font */
     margin-top: 1px; /* Adds space above the link */
@@ -47,13 +48,10 @@ a:hover {
     text-decoration: underline; /* Adds underline on hover for better user experience */
 }
 
-/* Other styles above */
-
 .footer-links {
     text-align: center;
     padding: 20px;
     margin-top: 320px; /* Adjust as needed */
-     /* Optional: background color */
 }
 
 .footer-links a {
@@ -66,6 +64,23 @@ a:hover {
 .footer-links a:hover {
     text-decoration: underline;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .centered-link {
+        margin-top: -20px;
+    }
+    .footer-links {
+        margin-top: 100px;
+    }
+}
+
 
 
 
