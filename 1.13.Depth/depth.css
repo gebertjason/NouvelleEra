@@ -81,6 +81,35 @@ a:hover {
     }
 }
 
+/* ... existing CSS ... */
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem; /* Larger font size for smaller screens */
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .centered-link a, .footer-links a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsive adjustments for medium screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    h1 {
+        font-size: 3.5rem; /* Adjust for medium screens */
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    .centered-link a, .footer-links a {
+        font-size: 1.1rem;
+    }
+}
+
+
 
 
 
