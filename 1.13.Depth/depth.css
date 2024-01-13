@@ -69,6 +69,9 @@ a:hover {
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
+    body {
+        background-size: auto 100%; /* Adjusts the scaling for smaller screens */
+    }
     h1 {
         font-size: 12rem; /* Larger font size for smaller screens */
     }
