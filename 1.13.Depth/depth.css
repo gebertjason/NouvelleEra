@@ -86,11 +86,13 @@ a:hover {
 /* Responsive adjustments for medium screens */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
+    margin-top: 5rem;
   }
 
   h2 {
     font-size: 1.8rem;
+    margin-top: 5rem;
   }
 
   .centered-link a,
