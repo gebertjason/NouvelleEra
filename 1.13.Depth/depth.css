@@ -85,15 +85,27 @@ a:hover {
 
 /* Responsive adjustments for medium screens */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    h1 {
-        font-size: 3.5rem; /* Adjust for medium screens */
-    }
-    h2 {
-        font-size: 1.8rem;
-    }
-    .centered-link a, .footer-links a {
-        font-size: 1.1rem;
-    }
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .centered-link a,
+  .footer-links a {
+    font-size: 1.1rem;
+  }
+
+  .footer-links {
+    position: fixed; /* Position at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 
