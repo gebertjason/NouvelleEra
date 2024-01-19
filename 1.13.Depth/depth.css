@@ -70,7 +70,9 @@ a:hover {
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
     body {
-        background-size: cover; /* Adjusts the scaling for smaller screens */
+        background-size: contain 50%; /* Adjusted for smartphone screens */
+        background-position: center;
+        background-repeat: no-repeat;
     }
     h1 {
         font-size: 12rem; /* Larger font size for smaller screens */
