@@ -70,7 +70,10 @@ a:hover {
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
     body {
-        background-size: cover; /* Adjusts the scaling for smaller screens */
+        background-image: url('highway.JPG');
+        background-size: cover; /* Cover the entire area while maintaining aspect ratio */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
     }
     h1 {
         font-size: 12rem; /* Larger font size for smaller screens */
