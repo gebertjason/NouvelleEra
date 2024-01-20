@@ -67,21 +67,30 @@ a:hover {
 
 /* ... existing CSS ... */
 
+/* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
-  body {
-    background-image: url('highway.JPG');
-    background-size: cover; /* Adjust if needed for the smaller image */
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+    body {
+        background-size: cover; /* Adjusts the scaling for smaller screens */
+    }
+    h1 {
+        font-size: 12rem; /* Larger font size for smaller screens */
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .centered-link a, .footer-links a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsive adjustments for medium screens */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   h1 {
-    font-size: 5.5rem;
-    margin-top: 5rem;
+    font-size: 3.5rem;
   }
 
   h2 {
     font-size: 1.8rem;
-    margin-top: 5rem;
   }
 
   .centered-link a,
