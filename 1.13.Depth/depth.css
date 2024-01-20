@@ -89,7 +89,12 @@ a:hover {
         font-size: 0.9rem; /* Adjusted font size for smaller screens */
     }
     .footer-links {
-        margin-top: 50px; /* Adjusted margin for smaller screens */
+        position: fixed; /* Position at the bottom of the viewport */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
     }
 }
 
@@ -109,6 +114,11 @@ a:hover {
         font-size: 0.9rem; /* Adjusted font size for smaller screens */
     }
     .footer-links {
-        margin-top: 50px; /* Adjusted margin for smaller screens */
+        position: fixed; /* Position at the bottom of the viewport */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
     }
 }
