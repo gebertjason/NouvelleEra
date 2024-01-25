@@ -87,6 +87,7 @@ a:hover {
         position: relative; /* Needed for absolute positioning of children */
     }
     h1 {
+        font-family: 'Grape Nuts', cursive;
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
         position: absolute; /* Absolute positioning */
         top: 50%; /* Position halfway down the parent */
@@ -118,6 +119,7 @@ a:hover {
         position: relative; /* Needed for absolute positioning of children */
     }
     h1 {
+        font-family: 'Grape Nuts', cursive;
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
         position: absolute; /* Absolute positioning */
         top: 50%; /* Position halfway down the parent */
