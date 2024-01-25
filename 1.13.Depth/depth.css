@@ -77,10 +77,16 @@ a:hover {
 @media screen and (max-width: 600px) {
     body {
         background-image: url('highway.JPG');
+        position: relative; /* Needed for absolute positioning of children */
     }
     h1 {
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
-        margin-top: 10px; /* Adjusted margin for smaller screens */
+        position: absolute; /* Absolute positioning */
+        top: 50%; /* Position halfway down the parent */
+        left: 50%; /* Position halfway across the parent */
+        transform: translate(-50%, -50%); /* Adjust position to center the element */
+        width: 100%; /* Full width to ensure center alignment */
+        margin: 0; /* Remove margin */
     }
     h2 {
         font-size: 1.2rem; /* Adjusted font size for smaller screens */
@@ -102,10 +108,16 @@ a:hover {
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     body {
         background-image: url('highway.JPG');
+        position: relative; /* Needed for absolute positioning of children */
     }
     h1 {
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
-        margin-top: 10px; /* Adjusted margin for smaller screens */
+        position: absolute; /* Absolute positioning */
+        top: 50%; /* Position halfway down the parent */
+        left: 50%; /* Position halfway across the parent */
+        transform: translate(-50%, -50%); /* Adjust position to center the element */
+        width: 100%; /* Full width to ensure center alignment */
+        margin: 0; /* Remove margin */
     }
     h2 {
         font-size: 1.2rem; /* Adjusted font size for smaller screens */
