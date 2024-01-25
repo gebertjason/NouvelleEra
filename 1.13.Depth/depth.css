@@ -31,6 +31,13 @@ h2 {
     color: #eef3e4; /* This will use the default body color, which is cream/off-white */
     margin-top: 20px; /* Adjust spacing as needed */
 }
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5rem; /* Adjust for scalability */
+    text-align: center; /* Center align the text */
+    color: #eef3e4; /* Set the text color - change as needed */
+    margin-top: 20px; /* Add space at the top, adjust as needed */
+}
 
 /* Styles for centered-link */
 .centered-link {
