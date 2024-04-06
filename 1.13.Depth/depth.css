@@ -87,7 +87,7 @@ a:hover {
         position: relative; /* Needed for absolute positioning of children */
     }
     h1 {
-        font-family: 'Grape Nuts', cursive;
+        font-family: 'Great Vibes', cursive;
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
         font-weight: 300; /* Thinner font if supported */
         position: absolute; /* Absolute positioning */
