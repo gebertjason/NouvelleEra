@@ -89,6 +89,7 @@ a:hover {
     h1 {
         font-family: 'Grape Nuts', cursive;
         font-size: 5.5rem; /* Adjusted font size for smaller screens */
+        font-weight: 300; /* Thinner font if supported */
         position: absolute; /* Absolute positioning */
         top: 50%; /* Position halfway down the parent */
         left: 50%; /* Position halfway across the parent */
